@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.none {
+    display: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.head-cont {
+    outline: 1px solid;
+    border-radius: 5px;
+    /*background: rgb(163, 158, 158);*/
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 15px 0;
+    align-items: center;
+}
+
+.main-head {
+    margin: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 15px;
+}
+
+.head-title {
+    font-family: 'Rubik Distressed', cursive;
+    padding-left: 10px;
+    font-size: 33px;
+    text-transform: uppercase;
+
+}
+
+.head-mid {
+    margin-left: -104px;
+}
+
+.form-head {
+    position: relative;
+}
+
+.search-input {
+    width: 380px;
+    padding: 3px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    border-bottom: 2px solid #746b6b;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-icon {
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    cursor: pointer;
+    color: #746b6b;
+}
+
+.btn-card {
+    color: #746b6b;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    background: white;
+    outline: 1px solid #746b6b;
+}
+
+.btn-card:hover {
+    color: black;
+    outline: 1px solid black;
+}
+
+.fa-cart-arrow-down {
+    color: #0b0b0b75;
+}
+
+.basket-products {
+    outline: 1px solid #837d7d66;
+    background: white;
+    z-index: 1;
+    top: 63px;
+    right: 331px;
+    width: 300px;
+    min-height: 62px;
+    position: absolute;
+    box-shadow: 0.1em 0.4em 0.4em 5px rgb(122 122 122 / 50%);
+    border-radius: 10px;
+}
+
+.basket-products::before {
+    content: "";
+    position: absolute;
+    border: 10px solid rgba(113, 101, 58, 0);
+    border-bottom: 10px solid #978f8f;
+    right: 35px;
+    top: -20px;
+    width: 1px;
+}
+
+.basket-products:after {
+    content: "";
+    position: absolute;
+    border: 10px solid rgba(255, 241, 190, 0);
+    border-bottom: 10px solid #ffffff;
+    right: 35.5px;
+    top: -20px;
+}
+
+.text-cart {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    color: #eb6969f7;
+    letter-spacing: 2px;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.wrapper-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
+.goods-item {
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    width: 219px;
+    box-shadow: 0.1em 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+    border-radius: 10px;
+}
+
+.img-goods {
+    border-radius: 10px 10px 0 0;
+    margin-left: 10px;
+}
+
+.wrap-price {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-top: 0.5px solid grey;
+}
+
+.product-price {
+    padding-bottom: 10px;
+}
+
+.span-price {
+    padding-left: 1px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.btn-add {
+    background: white;
+    text-transform: uppercase;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    padding: 11px;
+    border: none;
+    background: #f1eeea;
+    font-weight: bolder;
+}
+
+.btn-add:hover {
+    border: none;
+    color: #bc5b5b;
+}
+
+.merch-item {
+    margin: 0 20px 5px;;
+    border-bottom: 0.5px solid #000000;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    padding: 20px 0;
+}
+
+
+.merch-product {
+    margin-left: -12px;
+    width: 90px;
+    height: 85px;
+}
+
+.merch-price {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.price-per-piece {
+    font-size: 12px;
+}
+
+.merch-right-block {
+    text-align: end;
+}
+
+.del-btn {
+    border: none;
+    background: transparent;
+    padding-top: 16px;
+}
+
+.wrap-del-btn {
+    padding: 10px 5px 0 0;
+}
+
+.del-btn {
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-size: 16px;
+}
+
+.del-btn:hover {
+    color: #000000;
+    background-color: white;
+    cursor: pointer;
+}
+
+.span-bsk {
+    letter-spacing: 0.5em;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.text-error {
+    font-size: 99px;
+    color: red;
+}
+
+.syntax {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    outline: 1px solid;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 85px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+}
+
+.history {
+    font-family: 'Pacifico', cursive;
+    font-size: 12px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}

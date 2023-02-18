@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d9ef40d2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleCss/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Rubik+Distressed&display=swap"
+          rel="stylesheet">
+    <title>Home work</title>
+    <style>
+        .btn-card {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+<div id="app">
+    <div class="container">
+        <header class="head-cont">
+            <div class="head-left">
+                <div class="head-title">Home computer</div>
+            </div>
+            <div class="head-mid">
+                <filter_product></filter_product>
+            </div>
+            <div class="head-right">
+                <basket ref="basket"></basket>
+            </div>
+        </header>
+        <div class="wrapper-main">
+            <main class="main">
+                <product_list ref="products"></product_list>
+            </main>
+            <footer class="footer">
+                <div class="footer-wrap">
+                    <div style="color: #171614;" class="footer-left">
+                        <div class="history">History of Apple computers</div>
+                    </div>
+                    <div class="footer-mid">
+                        <a style="color: forestgreen;" href="https://apple-museum.ru/" target="_blank"><i
+                            class="fab fa-apple fa-3x"></i></a>
+                        <p style="font-size: 12px; margin-left: -3px;">Museum</p>
+                    </div>
+                    <div class="footer-right">
+                        <a class="footer-link" href="#"><i class="fab fa-apple-pay fa-2x"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
+<script src="script/basketGoods-comp.js"></script>
+<script src="script/mainPage-comp.js"></script>
+<script src="script/filterСomp.js"></script>
+<script src="script/main.js"></script>
+</body>
+</html>

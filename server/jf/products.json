@@ -1,0 +1,114 @@
+ [
+   {
+     "id_product": 115,
+     "product_name": "Apple I",
+     "price": 667,
+     "image": "image/apple_1.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 116,
+     "product_name": "Apple II",
+     "price": 1298,
+     "image": "image/apple_2.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 117,
+     "product_name": "Apple III",
+     "price": 4340,
+     "image": "image/apple_3.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 118,
+     "product_name": "Apple Lisa",
+     "price": 10000,
+     "image": "image/apple-Lisa.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 122,
+     "product_name": "Apple TAM",
+     "price": 7499,
+     "image": "image/apple_20th_Anniversary_Macintosh.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 121,
+     "product_name": "PowerBook 100",
+     "price": 2500,
+     "image": "image/powerBook_100.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 120,
+     "product_name": "Macintosh Plus",
+     "price": 2599,
+     "image": "image/macintosh_Plus.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 119,
+     "product_name": "Macintosh 128K",
+     "price": 2495,
+     "image": "image/macintosh_128K.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 123,
+     "product_name": "iMac G3",
+     "price": 1299,
+     "image": "image/iMac_G3.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 124,
+     "product_name": "iMac G4",
+     "price": 1999,
+     "image": "image/iMac_G4.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 125,
+     "product_name": "eMac",
+     "price": 1099,
+     "image": "image/eMac.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 126,
+     "product_name": "iMac G5",
+     "price": 1899,
+     "image": "image/iMac_G5.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 137,
+     "product_name": "Macbook Pro M2 MAX",
+     "price": 3499,
+     "image": "image/macbook_pro.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 135,
+     "product_name": "iMac PRO",
+     "price": 2999,
+     "image": "image/iMac_Pro.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 133,
+     "product_name": "iMac Retina",
+     "price": 1999,
+     "image": "image/iMac_G7.jpeg",
+     "quantity": 1
+   },
+   {
+     "id_product": 127,
+     "product_name": "iMac Second Generation",
+     "price": 1199,
+     "image": "image/iMac_G6.jpeg",
+     "quantity": 1
+   }
+  ]

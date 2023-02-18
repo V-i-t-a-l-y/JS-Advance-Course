@@ -1,12 +1,7 @@
 'use strict';
-  
-const API_URL = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
 
 const app = new Vue({
     components: {product_list, basket, filter_product},
-    data: {
-        error: false,
-    },
     el: '#app',
     methods: {
         getJson(url) {
